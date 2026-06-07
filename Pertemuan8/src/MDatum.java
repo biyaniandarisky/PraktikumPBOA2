@@ -11,10 +11,12 @@ public class MDatum {
         Datum<Anabul> d1 = new Datum<>();
         Datum<Anabul> d2 = new Datum<>();
         Datum<Anabul> d3 = new Datum<>();
+        Datum<Anabul> d4 = new Datum<>();
 
         d1.setIsi(k);
         d2.setIsi(a1);
         d3.setIsi(k1);
+        d4.setIsi(new Anggora());
 
         d1.getIsi().gerak();
         d1.getIsi().bersuara();
@@ -22,5 +24,7 @@ public class MDatum {
         d2.getIsi().bersuara();
         d3.getIsi().gerak();
         d3.getIsi().bersuara();
+        d4.getIsi().gerak();
+        d4.getIsi().bersuara();
     }
 }
